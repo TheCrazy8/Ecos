@@ -26,7 +26,7 @@ for i, species_name in enumerate(unique_species):
 
 plt.xlabel("petal length cm")
 plt.ylabel("petal width cm")
-plt.title("Iris Dataset: Petal Length vs Width")
+plt.title("Iris Dataset: Petal Length vs Width by Species")
 plt.legend()
 plt.grid(True)
 plt.show()
